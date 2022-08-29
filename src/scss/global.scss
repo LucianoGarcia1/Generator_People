@@ -1,0 +1,19 @@
+@import 'mixins';
+@import 'variable';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.root, .App{
+    width: 100%;
+    min-height: 100vh;
+}

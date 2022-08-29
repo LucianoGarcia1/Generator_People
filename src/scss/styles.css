@@ -1,0 +1,64 @@
+.App {
+  background-color: #121212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .card {
+  width: 60%;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 4px;
+  gap: 0.5em;
+}
+
+.App .card h1 {
+  font-size: 4em;
+  text-align: center;
+  line-height: 1em;
+  color: #fff;
+}
+
+.App .card .profile {
+  width: 100%;
+  min-height: auto;
+  border-radius: 4px;
+}
+
+.App .card .btn-random {
+  min-width: 30%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  border: none;
+  background-color: #f1c40f;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.App .card .btn-random:hover {
+  background-color: #3498db;
+}
+/*# sourceMappingURL=styles.css.map */
